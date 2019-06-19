@@ -1,0 +1,36 @@
+{
+  "name": "doacao_de_sangue_api",
+  "version": "1.0.0",
+  "description": "API feita em nodeJS para utilização do app Doacao de Sangue",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanjura/doacao_de_sangue_api.git"
+  },
+  "keywords": [
+    "api",
+    "doacao",
+    "de",
+    "sangue"
+  ],
+  "author": "Lucas Vanjura",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanjura/doacao_de_sangue_api/issues"
+  },
+  "homepage": "https://github.com/vanjura/doacao_de_sangue_api#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.5.1",
+    "request": "^2.88.0"
+  }
+}
